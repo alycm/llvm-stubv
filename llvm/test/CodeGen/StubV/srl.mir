@@ -11,7 +11,7 @@
   ; CHECK-LABEL: foo:
   ; CHECK:       # %bb.0:
   ; CHECK-NEXT:    srl a0, a0, a1
-  ; CHECK-NEXT:    srli a0, a0, 5
+  ; CHECK-NEXT:    srl a0, a0, 5
   ; CHECK-NEXT:    ret
     %c = lshr i32 %a, %b
     %d = lshr i32 %c, 5
